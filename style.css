@@ -81,6 +81,7 @@ a .box-main{
     align-items: center;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
     max-width: 50%;
     margin: auto;
     height: 80%;

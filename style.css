@@ -65,8 +65,32 @@ html{
     border-radius: 9px;
 }
 
+.status{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    padding-left: 7px;
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .background{
-    background: url('bg.png');
+    background:url(bg.jpg);
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -183,4 +207,10 @@ html{
     background-color: white;
     height: 4px;
     margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px){
+    input{
+        width: 200px;
+    }
 }
